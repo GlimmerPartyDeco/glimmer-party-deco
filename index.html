@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glimmer Party Deco</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      color: #A267AC;
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav button {
+      background: #f1e0f5;
+      border: none;
+      padding: 10px 16px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2, section h3 {
+      color: #A267AC;
+      margin-top: 1.2em;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    footer {
+      background: #fdf1f7;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .lang {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      nav button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+      }
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Glimmer Party Deco</h1>
+    <p>Mini cenários encantadores para festas inesquecíveis</p>
+    <nav>
+      <button onclick="setLang('pt')">Português</button>
+      <button onclick="setLang('en')">English</button>
+      <button onclick="setLang('nl')">Nederlands</button>
+    </nav>
+  </header>
+
+  <section id="pt" class="lang active">
+    <h2>Bem-vindo à Glimmer Party Deco!</h2>
+    <p>Descubra nossos mini cenários criados com carinho e atenção aos detalhes. Ideal para aniversários, batizados, chás revelação e muito mais.</p>
+    <h3>O que está incluído</h3>
+    <ul>
+      <li>Mesa decorada</li>
+      <li>Fundo temático</li>
+      <li>Itens personalizados</li>
+      <li>Iluminação especial</li>
+      <li>Montagem no local</li>
+    </ul>
+    <h3>Orçamento</h3>
+    <p>Entre em contato via WhatsApp. Nos diga o tema desejado, data e local do evento.</p>
+    <h3>Depoimentos</h3>
+    <p>“A decoração foi um sonho! Tudo perfeito, delicado e cheio de carinho.” – Juliana M.</p>
+    <h3>Sobre nós</h3>
+    <p>A Glimmer nasceu da paixão por criar momentos especiais. Cenários prontos para encantar com delicadeza e personalidade.</p>
+    <h3>Contato</h3>
+    <p>WhatsApp: [número]<br>Email: contato@glimmerpartydeco.com<br>Instagram: @glimmerpartydeco</p>
+  </section>
+
+  <section id="en" class="lang">
+    <h2>Welcome to Glimmer Party Deco!</h2>
+    <p>Discover our lovingly crafted mini setups, perfect for birthdays, baptisms, gender reveals and more.</p>
+    <h3>What’s Included</h3>
+    <ul>
+      <li>Decorated table</li>
+      <li>Themed backdrop</li>
+      <li>Custom elements</li>
+      <li>Special lighting</li>
+      <li>On-site installation</li>
+    </ul>
+    <h3>Quote</h3>
+    <p>Contact us via WhatsApp. Let us know your theme, event date and location.</p>
+    <h3>Testimonials</h3>
+    <p>“The decoration was a dream! Everything was perfect, delicate and full of love.” – Juliana M.</p>
+    <h3>About Us</h3>
+    <p>Glimmer was born from the passion for creating magical moments. Ready-to-go mini scenariums full of charm.</p>
+    <h3>Contact</h3>
+    <p>WhatsApp: [number]<br>Email: hello@glimmerpartydeco.com<br>Instagram: @glimmerpartydeco</p>
+  </section>
+
+  <section id="nl" class="lang">
+    <h2>Welkom bij Glimmer Party Deco!</h2>
+    <p>Ontdek onze met liefde gemaakte mini decors – perfect voor verjaardagen, doopfeesten, gender reveals en meer.</p>
+    <h3>Wat is inbegrepen</h3>
+    <ul>
+      <li>Gedekte tafel</li>
+      <li>Thematische achtergrond</li>
+      <li>Gepersonaliseerde elementen</li>
+      <li>Sfeerverlichting</li>
+      <li>Montage op locatie</li>
+    </ul>
+    <h3>Offerte</h3>
+    <p>Neem contact op via WhatsApp. Vertel ons je thema, datum en locatie.</p>
+    <h3>Klantenreviews</h3>
+    <p>“De decoratie was als een sprookje! Alles was perfect en met veel zorg gedaan.” – Juliana M.</p>
+    <h3>Over Ons</h3>
+    <p>Glimmer is ontstaan uit liefde voor magische momenten. Kant-en-klare mini decors vol charme.</p>
+    <h3>Contact</h3>
+    <p>WhatsApp: [nummer]<br>Email: hallo@glimmerpartydeco.com<br>Instagram: @glimmerpartydeco</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Glimmer Party Deco • Todos os direitos reservados
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
+</body>
+</html>
